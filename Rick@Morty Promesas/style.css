@@ -28,21 +28,17 @@ img{
     border: 6px solid #ff8364;
     border-radius: 50%;
     box-shadow: 10px 10px 5px grey;
-    transition: all .5s
 }
 
-img :hover{
-    border-color: crimson;
-}
-
-img :active{
+img:active{
     border-width: 10px;
 }
 
 p{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 500;
     padding-top:2em ;
     padding-bottom: 1em;
 }
+
