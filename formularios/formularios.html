@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="formulario" method="post">
+        <div>
+        <!-- etiqueta de ese cuadro -->
+            <label for="">Colores</label> 
+            <input type="color" name="color" id="color">
+        </div>
+        <div>
+            <label for="">Nombre</label>
+            <input type="text" name="texto" id="text">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <!-- pongo un valor por defecto -->
+            <input type="email" name="email" id="email" value="togal@gmail.com">
+        </div>
+        <div>
+            <label for="">Contrasena</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label for="">Edad</label>
+            <input type="number" name="edad" id="edad">
+        </div>
+        <div>        
+            <label for="">Color de piedra</label>
+            <select name="" id="">
+                <option value="Amarillo">Amarillo</option>
+                <option value="Rojo">Rojo</option>
+                <option value="Verde">Verde</option>
+                <option value="Celeste">Celeste</option>
+                <option value="Naranja">Naranja</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Pensamiento</label>
+            <textarea name="" id="" cols="30" rows="10">            
+            </textarea>
+        </div>
+        <div>
+            <label for="">opciones</label>
+            <input type="checkboxs" name= "" id="">
+        </div>   
+        <div> 
+            <label for="">Acepta las condiciones</label>   
+            <input type="radio" name="" id="">
+        </div>
+        <div>
+            <button>ENVIAR</button>
+        </div>
+    </form>
+    <!-- mostrar resultado de sentencias if -->
+    <div id="errores"></div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

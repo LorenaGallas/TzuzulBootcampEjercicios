@@ -1,0 +1,48 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+}
+
+header{
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 5em;
+    height: 200px;
+    font-size: 1.5em;
+    font-style: oblique;
+    color: #ffb677;
+    background-color: #5f6caf;
+ }
+
+#personajes{
+    margin: 3em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    justify-items: center;
+}
+
+img{
+    border: 6px solid #ff8364;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px grey;
+    transition: all .5s
+}
+
+img :hover{
+    border-color: crimson;
+}
+
+img :active{
+    border-width: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-top:2em ;
+    padding-bottom: 1em;
+}

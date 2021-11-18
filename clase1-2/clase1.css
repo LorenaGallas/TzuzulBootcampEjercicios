@@ -1,0 +1,24 @@
+.fondo--morado {
+    background-color: blueviolet;
+}
+
+#prueba{
+    color: rgb(185, 23, 23);
+}
+
+.botones button{
+    border-radius: 5px;
+    background-color: burlywood;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#detalles {
+    color: darkblue;
+    background-color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.contenido{
+    background-color: darkorchid;
+}

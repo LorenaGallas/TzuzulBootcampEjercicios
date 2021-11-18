@@ -1,0 +1,16 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(192, 10, 46);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div{
+    margin: 1.8em;
+}
+
+input{
+    border-width: 2px;
+    border-style: dotted;
+    background-color: ghostwhite;
+}
